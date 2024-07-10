@@ -35,7 +35,7 @@ import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 
 
-axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL || 'https://mernapp-backend-eight.vercel.app';
+// axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL || 'https://mernapp-backend-eight.vercel.app';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -52,7 +52,7 @@ function App() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const { data } = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/products/categories`);
+        const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/api/products/categories`);
         setCategories(data);
       } catch (err) {
         toast.error(getError(err));
