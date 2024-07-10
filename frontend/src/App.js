@@ -34,6 +34,9 @@ import OrderListScreen from './screens/OrderListScreen';
 import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 
+
+axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL || 'https://mernapp-backend-eight.vercel.app';
+
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { cart, userInfo } = state;
