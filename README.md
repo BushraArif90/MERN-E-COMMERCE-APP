@@ -9,25 +9,27 @@ This project is a fully functional e-commerce website built using the MERN stack
 Watch it on Youtube: https://youtu.be/XT3W6nR-8fg
 
 # Features
-User Authentication: Secure user registration and login functionality.
-Product Listings: Display a variety of products with detailed information.
-Shopping Cart: Add, remove, and update products in the shopping cart.
-Order Processing: Complete orders and manage order history.
-Payment Integration: Process payments using Stripe/PayPal.
-Admin Dashboard: Manage products, orders, and users.
-Search and Filter: Search for products and apply various filters.
-Responsive Design: Optimized for both desktop and mobile devices.
++ User Authentication: Secure user registration and login functionality.
++ Product Listings: Display a variety of products with detailed information.
++ Shopping Cart: Add, remove, and update products in the shopping cart.
++ Order Processing: Complete orders and manage order history.
++ Payment Integration: Process payments using Stripe/PayPal.
++ Admin Dashboard: Manage products, orders, and users.
++ Search and Filter: Search for products and apply various filters.
++ Responsive Design: Optimized for both desktop and mobile devices.
 
 # Installation
 
-1. Clone the repository
+# 1. Clone the repository
 
  git clone https://github.com/BushraArif90/MERN-E-COMMERCE-APP.git
  
-2. Create .env File
+# 2. Create .env File
+   
 duplicate .env.example in backend folder and rename it to .env
 
-3. Setup MongoDB
+# 4. Setup MongoDB
+   
 Local MongoDB
 Install it from here
 In .env file update MONGODB_URI=mongodb://localhost/amazona
@@ -35,12 +37,12 @@ OR Atlas Cloud MongoDB
 Create database at https://cloud.mongodb.com/
 In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 
-4. Run Backend
+# 5. Run Backend
 $ cd backend
 $ npm install
 $ npm start
 
-5. Run Frontend
+# 6. Run Frontend
 open new terminal
 $ cd frontend
 $ npm install
