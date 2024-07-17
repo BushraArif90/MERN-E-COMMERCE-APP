@@ -42,7 +42,7 @@ In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 + $ npm install
 + $ npm start
 
-# 6. Run Frontend
+## 6. Run Frontend
 -open new terminal
 + $ cd frontend
 + $ npm install
