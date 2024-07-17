@@ -1,4 +1,4 @@
-# Rural craft emporium an E-COMMERCE APP
+# Rural Craft Emporium An E-Commerce App
 
 ![image](https://github.com/user-attachments/assets/a7c5f800-c862-4f29-b5d8-0ed8ad83de37)
 
