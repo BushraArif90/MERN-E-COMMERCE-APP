@@ -20,15 +20,15 @@ This project is a fully functional e-commerce website built using the MERN stack
 
 # Installation
 
-# 1. Clone the repository
+## 1. Clone the repository
 
  + git clone https://github.com/BushraArif90/MERN-E-COMMERCE-APP.git
  
-# 2. Create .env File
+## 2. Create .env File
    
 + duplicate .env.example in backend folder and rename it to .env
 
-# 4. Setup MongoDB
+## 4. Setup MongoDB
    
 + Local MongoDB
  Install it from here <br>
@@ -37,7 +37,7 @@ In .env file update MONGODB_URI=mongodb://localhost/amazona
 Create database at https://cloud.mongodb.com/
 In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 
-# 5. Run Backend
+## 5. Run Backend
 + $ cd backend
 + $ npm install
 + $ npm start
