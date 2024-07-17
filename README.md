@@ -1,8 +1,8 @@
-# Rural Craft Emporium An E-COMMERCE APP
+# RURAL CRAFT EMPORIUM An E-COMMERCE APP
 
 ![image](https://github.com/user-attachments/assets/a7c5f800-c862-4f29-b5d8-0ed8ad83de37)
 
-# E-Commerce Website (Amazon Clone) using MERN Stack 
+# E-Commerce Website using MERN Stack 
 
 This project is a fully functional e-commerce website built using the MERN stack (MongoDB, ExpressJS, React, and Node.JS). The website replicates the core functionalities of Amazon, including user authentication, product listings, shopping cart, order processing, payment gateway integration, and more. This project serves as a comprehensive example of how to create a modern, scalable, and feature-rich e-commerce application using the MERN stack.
 
