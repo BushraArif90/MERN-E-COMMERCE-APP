@@ -31,7 +31,7 @@ This project is a fully functional e-commerce website built using the MERN stack
 # 4. Setup MongoDB
    
 + Local MongoDB
-* Install it from here
+ Install it from here <br>
 In .env file update MONGODB_URI=mongodb://localhost/amazona
 + OR Atlas Cloud MongoDB
 Create database at https://cloud.mongodb.com/
