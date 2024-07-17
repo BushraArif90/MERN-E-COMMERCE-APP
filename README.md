@@ -6,7 +6,7 @@
 
 This project is a fully functional e-commerce website built using the MERN stack (MongoDB, ExpressJS, React, and Node.JS). The website replicates the core functionalities of Amazon, including user authentication, product listings, shopping cart, order processing, payment gateway integration, and more. This project serves as a comprehensive example of how to create a modern, scalable, and feature-rich e-commerce application using the MERN stack.
 
-Watch it on Youtube: https://youtu.be/XT3W6nR-8fg
+
 
 # Features
 + User Authentication: Secure user registration and login functionality.
@@ -22,28 +22,28 @@ Watch it on Youtube: https://youtu.be/XT3W6nR-8fg
 
 # 1. Clone the repository
 
- git clone https://github.com/BushraArif90/MERN-E-COMMERCE-APP.git
+ + git clone https://github.com/BushraArif90/MERN-E-COMMERCE-APP.git
  
 # 2. Create .env File
    
-duplicate .env.example in backend folder and rename it to .env
++ duplicate .env.example in backend folder and rename it to .env
 
 # 4. Setup MongoDB
    
-Local MongoDB
++ Local MongoDB
 Install it from here
 In .env file update MONGODB_URI=mongodb://localhost/amazona
-OR Atlas Cloud MongoDB
++ OR Atlas Cloud MongoDB
 Create database at https://cloud.mongodb.com/
 In .env file update MONGODB_URI=mongodb+srv://your-db-connection
 
 # 5. Run Backend
-$ cd backend
-$ npm install
-$ npm start
++ $ cd backend
++ $ npm install
++ $ npm start
 
 # 6. Run Frontend
-open new terminal
-$ cd frontend
-$ npm install
-$ npm start
+-open new terminal
++ $ cd frontend
++ $ npm install
++ $ npm start
